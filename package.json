@@ -1,0 +1,19 @@
+{
+  "name": "aquatic-birds-",
+  "version": "1.0.0",
+  "description": "aquatic birds",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdul-p/aquatic-birds-.git"
+  },
+  "author": "abdul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdul-p/aquatic-birds-/issues"
+  },
+  "homepage": "https://github.com/abdul-p/aquatic-birds-#readme"
+}
