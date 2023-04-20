@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.type-card {
+    @apply  m-2 shadow-xl max-w-xs h-80 bg-white rounded-s flex flex-col
+}
+.type-card-img{
+    @apply w-40 h-2/4 rounded-full text-center p-5
+}
+.type-card-t{
+    @apply p-2 text-inherit
+}
+.texxt{
+    @apply font-semibold from-lime-700
+}
+.type-bt{
+    @apply hover:text-red-700
+}

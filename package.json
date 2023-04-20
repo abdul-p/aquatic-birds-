@@ -4,7 +4,7 @@
   "description": "aquatic birds",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-css": "tailwindcss build -i ./src/style.css -o ./public/style.css"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/abdul-p/aquatic-birds-/issues"
   },
-  "homepage": "https://github.com/abdul-p/aquatic-birds-#readme"
+  "homepage": "https://github.com/abdul-p/aquatic-birds-#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
+  }
 }
