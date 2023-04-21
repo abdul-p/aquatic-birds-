@@ -5,37 +5,28 @@ import Data from './data.js';
 
 // console.log(Diseases);
 
-let list = document.getElementById('list');
-let listItem = document.querySelectorAll('.listItem');
-
-list.addEventListener('click' , () => {
-       console.log('hey')
-});
-
-  
-listItem.forEach( cur => {
-       cur.addEventListener('click' , () => {
-        console.log('how are you doing');
-});
-
-})
 
 
 
-// const page = (function() {
-//         document.getElementById('ex').addEventListener('click' , () => {
+const page = (function() {
+     let list ;
+     // toggle the content element  
+     document.getElementById('content').addEventListener('click' , () => {
+         let lists = document.getElementById('lists');
+         if(lists.style.display === 'none' ){
+              lists.style.display = 'block' ;
+         } else {
+              lists.style.display = 'none' ;
+         }
+           
+     });
 
-//                 //display data from data.js to the window
+     // get and display content element data 
+     list = document.querySelectorAll('.list');
+     
+     list.addEventListener('click' , cur => {
+          console.log(cur.id);
+     });
 
-//                 // recieve data from data.js 
-//                 const [{ diseaseP  , Extinction , InText }] = Data ;
-//                 //create new dom element
-//                 let p = document.createElement('p');
-//                 p.innerText = Extinction.Text ;
-//                 console.log(Extinction.Text);
-//                 //display the element
-//                 document.getElementById('text-space').insertAdjacentElement('beforeend' , p)
-//         })
-// })();
 
-// page();
+})();

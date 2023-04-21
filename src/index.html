@@ -154,17 +154,19 @@
       </div>
     </main>
 
-    <section class=" bg-slate-200 grid grid-cols-4 w-full h-full " id="mid">
-        <div class="col-start-1 bg-gray-800" id="list">
-             <h2 class="text-white p-2">Content</h2>
-             <ul>
-              <li id="ex" class='listItem'>Extinction</li>
-              <li id="in" class='listItem'>Interspecific competition</li>
-              <li id="di" class='listItem'>Diseases</li>
+    <section class=" bg-slate-200 grid grid-cols-4 w-full h-screen " id="mid">
+        <div class="col-start-1 col-span-1 w-34 mx-6 my-4 shadow-md hover:shadow-lg hover:shadow-slate-600 text-center cursor-pointer bg-gray-800 p-2" id="list">
+             <h2 class="text-white mb-5 border-b border-cyan-500 " id="content">Content</h2>
+             <ul class="hidden " id="lists">
+              <li id="ex" class='flex listItem text-white hover:border-b hover:border-cyan-500 my-2 text-justify list-disc p-1'>Extinction</li>
+              <li id="in" class='flex listItem text-white hover:border-b hover:border-cyan-500 my-2 text-justify list-disc p-1'>Competition</li>
+              <li id="di" class='flex listItem text-white hover:border-b hover:border-cyan-500 my-2 text-justify list-disc p-1'>Diseases</li>
              </ul>
         </div>
         <div class="col-start-2 col-span-full" id="text-space">
-          <div class="h-7 bg-white " id="text-space"></div>
+          <div class="h-9 bg-white my-5 mx-3 shadow-md hover:shadow-lg hover:shadow-slate-600 p-2" id="text-space">
+            <h2 class=" text-lg font-semibold">WATER BIRD</h2>
+          </div>
           <p></p>
         </div>
     </section>
