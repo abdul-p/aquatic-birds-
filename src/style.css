@@ -15,6 +15,24 @@
 .texxt{
     @apply font-semibold from-lime-700
 }
+.data-p{
+    @apply py-3 text-xl
+}
 .type-bt{
     @apply hover:text-red-700
+}
+.p{
+    @apply  font-sans text-sm
+}
+.h2{
+    @apply   font-mono font-semibold text-xl
+}
+.bt{
+    @apply block
+}
+.di-typ{
+    @apply text-white p-2 m-2 max-w-xs bg-gray-700 shadow-lg rounded
+}
+.div2{
+    @apply flex flex-row flex-wrap p-2 
 }
